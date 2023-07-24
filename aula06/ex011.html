@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Necionalidade</title>
+    <style>
+        div#res {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <H1>Nacionalidade</H1>
+    País em que nasceu: <input type="text" name="nascionalidade" id="txt"> 
+    <input type="button" value="Verificar" onclick="ver()">
+    <div id="res">Resultado</div>
+    <script>
+        function ver() {
+            var n = window.document.getElementById('txt')
+            var res = window.document.querySelector('div#res')
+            var p = (txt.value)
+                res.innerHTML = `<p>${p} </P>`
+                   
+         
+        }
+    </script>
+    
+</body>
+</html>
